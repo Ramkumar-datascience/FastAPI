@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+<html>
+    <head>
+        <title>Welcome to My FastAPI Application</title>
+    </head>
+    <body>
+        <h1>Welcome to My FastAPI Application</h1>
+        <p>This is a simple FastAPI application with HTML Jinja Templates.</p>
+    {%- block content -%}
+        <div>
+            <h2>Home Page</h2>
+            <p>This is the home page of the FastAPI application.</p>
+        </div>
+    {%- endblock -%}
+    
+        {%- block footer -%} 
+    <footer>
+        <p>&copy; 2023 My FastAPI Application. All rights reserved.</p>
+    </footer>
+    {%- endblock -%}
+    </body>
+</html>

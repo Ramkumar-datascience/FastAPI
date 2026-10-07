@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Welcome to My FastAPI Application</title>
+    </head>
+    <body>
+        <h1>Welcome to My FastAPI Application</h1>
+        <p>This is a simple FastAPI application with HTML Jinja Templates.</p>
+    {% block image %}
+    {% endblock %}
+        <!-- basic content -->
+        {%- block content -%}
+    {%- endblock -%}
+    <!-- basic Students block -->
+    {% block students %}
+    {% endblock %}
+    <!-- footer -->
+     {% block footer %}
+    {% endblock %}
+    
+    </body>
+</html>
