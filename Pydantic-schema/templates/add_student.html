@@ -1,0 +1,16 @@
+<!-- lets create a simple form to add a new student -->
+<form method="post" action="/add_student">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="is_active">Is Active:</label>
+        <input type="checkbox" class="form-check-input" id="is_active" name="is_active">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Student</button>
+</form>
