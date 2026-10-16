@@ -7,9 +7,9 @@ That is the basic idea of Dependency Injection (DI).
 - Injection: Providing that required thing to the function automatically.
 
 In Python, imagine this:
+
 ```def teach_class(laptop, projector):  
     print("Teaching with laptop and projector")```
-
 
 The function needs a laptop and projector. Someone must provide them.
 In FastAPI, the framework can provide these dependencies for you.
